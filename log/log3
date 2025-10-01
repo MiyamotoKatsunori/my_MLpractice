@@ -1,0 +1,168 @@
+(venv) C:\Users\katsu\OneDrive\my_practice>python main5.py
+C:\Users\katsu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: can't open file 'C:\\Users\\katsu\\OneDrive\\my_practice\\main5.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\katsu\OneDrive\my_practice>cd scr
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main5.py
+Epoch 1, Loss: 0.2799
+Epoch 2, Loss: 0.0930
+Epoch 3, Loss: 0.0691
+Epoch 4, Loss: 0.0575
+Epoch 5, Loss: 0.0527
+Epoch 6, Loss: 0.0460
+Epoch 7, Loss: 0.0417
+Epoch 8, Loss: 0.0392
+Epoch 9, Loss: 0.0367
+Epoch 10, Loss: 0.0335
+Epoch 11, Loss: 0.0332
+Epoch 12, Loss: 0.0314
+Epoch 13, Loss: 0.0310
+Epoch 14, Loss: 0.0285
+Epoch 15, Loss: 0.0280
+Test Accuracy: 99.49%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main6.py
+Epoch 1, Loss: 2.00980817953915
+Epoch 2, Loss: 0.7744222113699801
+Epoch 3, Loss: 0.5619668077860178
+Epoch 4, Loss: 0.4464948040002318
+Test MSE: 0.4385
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp.py
+Epoch [1/50], Loss: 0.4409
+Epoch [2/50], Loss: 0.3513
+Epoch [3/50], Loss: 0.1765
+Epoch [4/50], Loss: 0.0741
+Epoch [5/50], Loss: 0.0955
+Epoch [6/50], Loss: 0.0763
+Epoch [7/50], Loss: 0.1178
+Epoch [8/50], Loss: 0.0603
+Epoch [9/50], Loss: 0.0461
+Epoch [10/50], Loss: 0.0482
+Epoch [11/50], Loss: 0.0420
+Epoch [12/50], Loss: 0.0485
+Epoch [13/50], Loss: 0.0442
+Epoch [14/50], Loss: 0.0366
+Epoch [15/50], Loss: 0.0318
+Epoch [16/50], Loss: 0.0507
+Epoch [17/50], Loss: 0.0459
+Epoch [18/50], Loss: 0.0380
+Epoch [19/50], Loss: 0.0438
+Epoch [20/50], Loss: 0.0172
+Epoch [21/50], Loss: 0.0417
+Epoch [22/50], Loss: 0.0386
+Epoch [23/50], Loss: 0.0297
+Epoch [24/50], Loss: 0.0255
+Epoch [25/50], Loss: 0.0164
+Epoch [26/50], Loss: 0.0240
+Epoch [27/50], Loss: 0.0260
+Epoch [28/50], Loss: 0.0191
+Epoch [29/50], Loss: 0.0239
+Epoch [30/50], Loss: 0.0181
+Epoch [31/50], Loss: 0.0256
+Epoch [32/50], Loss: 0.0331
+Epoch [33/50], Loss: 0.0315
+Epoch [34/50], Loss: 0.0381
+Epoch [35/50], Loss: 0.0259
+Epoch [36/50], Loss: 0.0272
+Epoch [37/50], Loss: 0.0301
+Epoch [38/50], Loss: 0.0142
+Epoch [39/50], Loss: 0.0323
+Epoch [40/50], Loss: 0.0438
+Epoch [41/50], Loss: 0.0524
+Epoch [42/50], Loss: 0.0324
+Epoch [43/50], Loss: 0.0224
+Epoch [44/50], Loss: 0.0112
+Epoch [45/50], Loss: 0.0199
+Epoch [46/50], Loss: 0.0136
+Epoch [47/50], Loss: 0.0395
+Epoch [48/50], Loss: 0.0303
+Epoch [49/50], Loss: 0.0190
+Epoch [50/50], Loss: 0.0381
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>tra
+'tra' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp2.py
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "C:\Users\katsu\OneDrive\my_practice\scr\train_mlp2.py", line 10, in <module>
+    df = pd.read_csv(r"C:\Users\katsu\OneDrive\my_practice\data\train_data.csv")  # 修正: dataフォルダ
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\katsu\OneDrive\my_practice\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\katsu\OneDrive\my_practice\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\katsu\OneDrive\my_practice\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\katsu\OneDrive\my_practice\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\katsu\OneDrive\my_practice\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\katsu\\OneDrive\\my_practice\\data\\train_data.csv'
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python trsin_mlp2.py
+C:\Users\katsu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: can't open file 'C:\\Users\\katsu\\OneDrive\\my_practice\\scr\\trsin_mlp2.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp2.py
+Epoch [1/50], Loss: 0.5811
+Epoch [2/50], Loss: 0.2995
+Epoch [3/50], Loss: 0.1291
+Epoch [4/50], Loss: 0.0711
+Epoch [5/50], Loss: 0.0715
+Epoch [6/50], Loss: 0.1553
+Epoch [7/50], Loss: 0.0488
+Epoch [8/50], Loss: 0.0645
+Epoch [9/50], Loss: 0.0969
+Epoch [10/50], Loss: 0.1157
+Epoch [11/50], Loss: 0.1568
+Epoch [12/50], Loss: 0.0448
+Epoch [13/50], Loss: 0.0726
+Epoch [14/50], Loss: 0.0406
+Epoch [15/50], Loss: 0.0320
+Epoch [16/50], Loss: 0.0409
+Epoch [17/50], Loss: 0.0359
+Epoch [18/50], Loss: 0.0337
+Epoch [19/50], Loss: 0.0142
+Epoch [20/50], Loss: 0.0246
+Epoch [21/50], Loss: 0.0266
+Epoch [22/50], Loss: 0.0158
+Epoch [23/50], Loss: 0.0128
+Epoch [24/50], Loss: 0.0303
+Epoch [25/50], Loss: 0.0410
+Epoch [26/50], Loss: 0.0315
+Epoch [27/50], Loss: 0.0310
+Epoch [28/50], Loss: 0.0138
+Epoch [29/50], Loss: 0.0395
+Epoch [30/50], Loss: 0.0110
+Epoch [31/50], Loss: 0.0137
+Epoch [32/50], Loss: 0.0201
+Epoch [33/50], Loss: 0.0424
+Epoch [34/50], Loss: 0.0308
+Epoch [35/50], Loss: 0.0185
+Epoch [36/50], Loss: 0.0209
+Epoch [37/50], Loss: 0.0270
+Epoch [38/50], Loss: 0.0480
+Epoch [39/50], Loss: 0.0368
+Epoch [40/50], Loss: 0.0220
+Epoch [41/50], Loss: 0.0208
+Epoch [42/50], Loss: 0.0179
+Epoch [43/50], Loss: 0.0153
+Epoch [44/50], Loss: 0.0126
+Epoch [45/50], Loss: 0.0329
+Epoch [46/50], Loss: 0.0225
+Epoch [47/50], Loss: 0.0122
+Epoch [48/50], Loss: 0.0145
+Epoch [49/50], Loss: 0.0177
+Epoch [50/50], Loss: 0.0178
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>

@@ -1,0 +1,18 @@
+(venv) C:\Users\katsu\OneDrive\my_practice>cd scr
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main4.py
+Epoch 1, Loss: 0.18442246404790213
+Epoch 2, Loss: 0.05099398793770807
+Epoch 3, Loss: 0.034906062801658456
+Epoch 4, Loss: 0.027300516420827387
+Epoch 5, Loss: 0.019582318431326202
+Test Accuracy: 99.00%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main4.py
+Epoch 1, Loss: 0.17805257072942313
+Epoch 2, Loss: 0.051551905655012185
+Epoch 3, Loss: 0.03481764823763268
+Epoch 4, Loss: 0.024986982263420134
+Test Accuracy: 99.10%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>

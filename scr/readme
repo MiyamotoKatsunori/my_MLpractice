@@ -1,0 +1,6 @@
+main.py MNIST分類　1層　学習ループ1
+main2.py MNIST分類　1層　学習ループ4　正答率表示
+main3.py MNIST分類　2層パーセプトロン　学習ループ4　正答率表示
+main4.py MNIST分類　CNN　隠れ層2　学習ループ4　正答率表示
+main5.py MNIST分類　CNN　隠れ層2　学習ループ15　正答率表示
+main6.py MNIST回帰　CNN　隠れ層2　学習ループ4　2乗平均誤差表示

@@ -1,0 +1,73 @@
+
+(venv) C:\Users\katsu\OneDrive\my_practice>python -c import torch; print(torch.__version__); print(torch.cuda.is_available())
+2.8.0+cpu
+False
+
+(venv) C:\Users\katsu\OneDrive\my_practice>pip install torch torchvision
+Requirement already satisfied: torch in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (2.8.0+cpu)
+Requirement already satisfied: torchvision in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (0.23.0+cpu)
+Requirement already satisfied: filelock in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (3.13.1)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (4.15.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (1.13.3)
+Requirement already satisfied: networkx in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (3.3)
+Requirement already satisfied: jinja2 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torch) (2024.6.1)
+Requirement already satisfied: numpy in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torchvision) (2.3.3)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from torchvision) (11.3.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\katsu\onedrive\my_practice\venv\lib\site-packages (from jinja2->torch) (3.0.2)
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\katsu\OneDrive\my_practice>
+(venv) C:\Users\katsu\OneDrive\my_practice>python main.py
+C:\Users\katsu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: cant open file C:\\Users\\katsu\\OneDrive\\my_practice\\main.py: [Errno 2] No such file or directory
+
+(venv) C:\Users\katsu\OneDrive\my_practice>cd scr
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main.py
+100.0%
+100.0%
+100.0%
+100.0%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main2.py
+Epoch 1, Loss: 0.9773
+Epoch 2, Loss: 0.5504
+Epoch 3, Loss: 0.4713
+Test Accuracy: 89.11%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main2.py
+Epoch 1, Loss: 0.9777
+Epoch 2, Loss: 0.5521
+Epoch 3, Loss: 0.4727
+Epoch 4, Loss: 0.4337
+Test Accuracy: 89.65%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main3.py
+Epoch 1, Loss: 0.3446
+Epoch 2, Loss: 0.1421
+Epoch 3, Loss: 0.1004
+Epoch 4, Loss: 0.0762
+Epoch 5, Loss: 0.0578
+Test Accuracy: 97.61%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main3.py
+Epoch 1, Loss: 0.3502
+Epoch 2, Loss: 0.1512
+Epoch 3, Loss: 0.1049
+Epoch 4, Loss: 0.0782
+Epoch 5, Loss: 0.0624
+Epoch 6, Loss: 0.0493
+Test Accuracy: 97.94%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main3.py
+Epoch 1, Loss: 0.3439
+Epoch 2, Loss: 0.1420
+Epoch 3, Loss: 0.0979
+Epoch 4, Loss: 0.0752
+Epoch 5, Loss: 0.0589
+Test Accuracy: 97.58%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>
