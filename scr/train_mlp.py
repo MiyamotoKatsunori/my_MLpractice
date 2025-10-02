@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
-# ===== データ読み込み =====
+# データ読み込み 
 df = pd.read_csv(r"C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv")
 X = df[["x1", "x2"]].values
 y = df["y"].values
