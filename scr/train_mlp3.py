@@ -35,7 +35,7 @@ model = MLP()
 
 # 損失関数 & 最適化
 criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr=0.01)
+optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # 学習ループ 
 epochs = 50

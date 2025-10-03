@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # データ件数
-N = 500  
+N = 10000  
 
 # 入力データ（ランダム生成）
 x1 = np.random.uniform(-5, 5, N)
