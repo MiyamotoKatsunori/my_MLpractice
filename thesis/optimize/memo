@@ -1,0 +1,79 @@
+adm
+config = {
+    # モデル
+    "hidden": 64,
+    "num_layers": 3,
+    "activation": "relu",
+    "initializer": "default",  # "default" / "kaiming_*" / "xavier_*"
+    "use_dropout": True,
+    "dropout_p": 0.2,
+    "use_layernorm": False,
+
+    # optimizer
+    "opt_name": "adam",   # "adam" / "adagrad" / "sgd" / "rmsprop"
+    "lr": 3e-4,
+    "weight_decay": 1e-4,
+
+    # シード & epoch
+    "epochs": 60,
+    "batch_size": 64,
+    "num_runs": 5,
+    "base_seed": 2025,
+    "eval_every": 1,
+
+    # データ
+    "use_robust": False,
+}
+adm1  上と同じ、エポック100
+adm2
+config = {
+    # モデル
+    "hidden": 64,
+    "num_layers": 3,
+    "activation": "relu",
+    "initializer": "default",  # "default" / "kaiming_*" / "xavier_*"
+    "use_dropout": True,
+    "dropout_p": 0.2,
+    "use_layernorm": False,
+
+    # optimizer
+    "opt_name": "adam",   # "adam" / "adagrad" / "sgd" / "rmsprop"
+    "lr": 3e-4,
+    "weight_decay": 3e-5,
+
+    # シード & epoch
+    "epochs": 100,
+    "batch_size": 64,
+    "num_runs": 5,
+    "base_seed": 2025,
+    "eval_every": 1,
+
+    # データ
+    "use_robust": False,
+}
+adm3
+    "dropout_p": 0.3,
+    "use_layernorm": False,
+
+    # optimizer
+    "opt_name": "adam",   # "adam" / "adagrad" / "sgd" / "rmsprop"
+    "lr": 3e-4,
+    "weight_decay": 1e-4,
+adm4
+    "dropout_p": 0.3,
+    "use_layernorm": False,
+
+    # optimizer
+    "opt_name": "adam",   # "adam" / "adagrad" / "sgd" / "rmsprop"
+    "lr": 5e-4,
+    "weight_decay": 1e-4,
+adm5
+    "dropout_p": 0.3,
+    "use_layernorm": False,
+
+    # optimizer
+    "opt_name": "adam",   # "adam" / "adagrad" / "sgd" / "rmsprop"
+    "lr": 3e-4,
+    "weight_decay": 8e-5,
+
+

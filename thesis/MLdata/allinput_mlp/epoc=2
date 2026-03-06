@@ -1,0 +1,100 @@
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.120172  Val: 0.003717
+Epoch [2/2]  Train: 0.015190  Val: 0.002907
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.014039, MAE: 0.010767
+Val RMSE: 0.013963, MAE: 0.010797
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.120552, MAE: 0.105026
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 2.494325, MAE: 2.444958
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.093791  Val: 0.003764
+Epoch [2/2]  Train: 0.013490  Val: 0.002948
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.014079, MAE: 0.010797
+Val RMSE: 0.014059, MAE: 0.010896
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.083439, MAE: 0.068067
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 1.236010, MAE: 1.196649
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.096100  Val: 0.003891
+Epoch [2/2]  Train: 0.014662  Val: 0.002855
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.013824, MAE: 0.010544
+Val RMSE: 0.013838, MAE: 0.010598
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.079928, MAE: 0.066323
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 1.231104, MAE: 1.196484
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python.mlp2.py
+'python.mlp2.py' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.090375  Val: 0.003533
+Epoch [2/2]  Train: 0.013977  Val: 0.002899
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.013924, MAE: 0.010719
+Val RMSE: 0.013940, MAE: 0.010871
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.089668, MAE: 0.078000
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 4.090522, MAE: 4.077226
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.103742  Val: 0.003604
+Epoch [2/2]  Train: 0.015067  Val: 0.002897
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.013903, MAE: 0.010687
+Val RMSE: 0.013939, MAE: 0.010861
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.080128, MAE: 0.060933
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 4.075474, MAE: 4.060348
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/2]  Train: 0.102437  Val: 0.003596
+Epoch [2/2]  Train: 0.014660  Val: 0.002790
+保存完了
+
+ スケールを戻した評価
+Train RMSE: 0.013691, MAE: 0.010571
+Val RMSE: 0.013677, MAE: 0.010610
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.061909, MAE: 0.051113
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 2.199576, MAE: 2.167023

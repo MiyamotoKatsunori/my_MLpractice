@@ -1,0 +1,63 @@
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp2.py
+DropNA: 34 rows removed
+Epoch [1/50]  Train: 0.111817  Val: 0.003129
+Epoch [2/50]  Train: 0.014645  Val: 0.002716
+Epoch [3/50]  Train: 0.012919  Val: 0.002459
+Epoch [4/50]  Train: 0.012649  Val: 0.002325
+Epoch [5/50]  Train: 0.012397  Val: 0.002471
+Epoch [6/50]  Train: 0.012054  Val: 0.002367
+Epoch [7/50]  Train: 0.012235  Val: 0.003136
+Epoch [8/50]  Train: 0.012408  Val: 0.002365
+Epoch [9/50]  Train: 0.012285  Val: 0.002457
+Epoch [10/50]  Train: 0.011944  Val: 0.002326
+Epoch [11/50]  Train: 0.012069  Val: 0.002367
+Epoch [12/50]  Train: 0.011798  Val: 0.002421
+Epoch [13/50]  Train: 0.012097  Val: 0.002161
+Epoch [14/50]  Train: 0.011976  Val: 0.002847
+Epoch [15/50]  Train: 0.011927  Val: 0.002488
+Epoch [16/50]  Train: 0.011605  Val: 0.002537
+Epoch [17/50]  Train: 0.011682  Val: 0.002640
+Epoch [18/50]  Train: 0.011629  Val: 0.002194
+Epoch [19/50]  Train: 0.011774  Val: 0.002457
+Epoch [20/50]  Train: 0.011425  Val: 0.002271
+Epoch [21/50]  Train: 0.011444  Val: 0.002497
+Epoch [22/50]  Train: 0.011174  Val: 0.002520
+Epoch [23/50]  Train: 0.011210  Val: 0.002375
+Epoch [24/50]  Train: 0.011112  Val: 0.002474
+Epoch [25/50]  Train: 0.011143  Val: 0.002118
+Epoch [26/50]  Train: 0.011147  Val: 0.002167
+Epoch [27/50]  Train: 0.011159  Val: 0.002930
+Epoch [28/50]  Train: 0.011043  Val: 0.002594
+Epoch [29/50]  Train: 0.011099  Val: 0.002296
+Epoch [30/50]  Train: 0.011419  Val: 0.002181
+Epoch [31/50]  Train: 0.010878  Val: 0.002176
+Epoch [32/50]  Train: 0.010663  Val: 0.002279
+Epoch [33/50]  Train: 0.011074  Val: 0.002135
+Epoch [34/50]  Train: 0.010806  Val: 0.001968
+Epoch [35/50]  Train: 0.010808  Val: 0.002746
+Epoch [36/50]  Train: 0.010759  Val: 0.002346
+Epoch [37/50]  Train: 0.010754  Val: 0.002079
+Epoch [38/50]  Train: 0.010814  Val: 0.002521
+Epoch [39/50]  Train: 0.010728  Val: 0.002370
+Epoch [40/50]  Train: 0.010675  Val: 0.002362
+Epoch [41/50]  Train: 0.010829  Val: 0.002009
+Epoch [42/50]  Train: 0.010726  Val: 0.002126
+Epoch [43/50]  Train: 0.010695  Val: 0.002365
+Epoch [44/50]  Train: 0.010643  Val: 0.002037
+Epoch [45/50]  Train: 0.011088  Val: 0.002215
+Epoch [46/50]  Train: 0.010684  Val: 0.002038
+Epoch [47/50]  Train: 0.010560  Val: 0.002124
+Epoch [48/50]  Train: 0.010712  Val: 0.002007
+Epoch [49/50]  Train: 0.010835  Val: 0.002327
+Epoch [50/50]  Train: 0.010654  Val: 0.002537
+保存完了
+
+スケールを戻した評価
+Train RMSE: 0.011542, MAE: 0.008881
+Val RMSE: 0.011489, MAE: 0.008906
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.105608, MAE: 0.083080
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 4.405705, MAE: 4.364706

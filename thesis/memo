@@ -1,0 +1,4 @@
+model1 全データinput 物理を入力とする 2層64 エポック30
+mlp4 MLP 
+mlp5 mlp+phys
+mlp6 mlp*phys

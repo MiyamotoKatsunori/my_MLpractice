@@ -1,0 +1,611 @@
+(venv) C:\Users\katsu\OneDrive\my_practice>cd scr
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.3634
+Epoch [2/50], Loss: 0.1546
+Epoch [3/50], Loss: 0.1332
+Epoch [4/50], Loss: 0.1450
+Epoch [5/50], Loss: 0.0779
+Epoch [6/50], Loss: 0.0680
+Epoch [7/50], Loss: 0.0667
+Epoch [8/50], Loss: 0.0732
+Epoch [9/50], Loss: 0.0365
+Epoch [10/50], Loss: 0.0378
+Epoch [11/50], Loss: 0.0263
+Epoch [12/50], Loss: 0.0174
+Epoch [13/50], Loss: 0.0297
+Epoch [14/50], Loss: 0.0350
+Epoch [15/50], Loss: 0.0274
+Epoch [16/50], Loss: 0.0294
+Epoch [17/50], Loss: 0.0461
+Epoch [18/50], Loss: 0.0200
+Epoch [19/50], Loss: 0.0486
+Epoch [20/50], Loss: 0.0523
+Epoch [21/50], Loss: 0.0344
+Epoch [22/50], Loss: 0.0213
+Epoch [23/50], Loss: 0.0839
+Epoch [24/50], Loss: 0.0399
+Epoch [25/50], Loss: 0.1038
+Epoch [26/50], Loss: 0.0194
+Epoch [27/50], Loss: 0.0355
+Epoch [28/50], Loss: 0.0267
+Epoch [29/50], Loss: 0.0414
+Epoch [30/50], Loss: 0.0293
+Epoch [31/50], Loss: 0.0600
+Epoch [32/50], Loss: 0.0376
+Epoch [33/50], Loss: 0.0366
+Epoch [34/50], Loss: 0.0333
+Epoch [35/50], Loss: 0.0323
+Epoch [36/50], Loss: 0.0396
+Epoch [37/50], Loss: 0.0170
+Epoch [38/50], Loss: 0.0142
+Epoch [39/50], Loss: 0.0299
+Epoch [40/50], Loss: 0.0335
+Epoch [41/50], Loss: 0.0162
+Epoch [42/50], Loss: 0.0297
+Epoch [43/50], Loss: 0.0079
+Epoch [44/50], Loss: 0.0330
+Epoch [45/50], Loss: 0.0187
+Epoch [46/50], Loss: 0.0200
+Epoch [47/50], Loss: 0.0265
+Epoch [48/50], Loss: 0.0126
+Epoch [49/50], Loss: 0.0184
+Epoch [50/50], Loss: 0.0363
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.3542
+Epoch [2/50], Loss: 0.5041
+Epoch [3/50], Loss: 0.1904
+Epoch [4/50], Loss: 0.1095
+Epoch [5/50], Loss: 0.0437
+Epoch [6/50], Loss: 0.0620
+Epoch [7/50], Loss: 0.0478
+Epoch [8/50], Loss: 0.0930
+Epoch [9/50], Loss: 0.0558
+Epoch [10/50], Loss: 0.1280
+Epoch [11/50], Loss: 0.0815
+Epoch [12/50], Loss: 0.0737
+Epoch [13/50], Loss: 0.0324
+Epoch [14/50], Loss: 0.0361
+Epoch [15/50], Loss: 0.0331
+Epoch [16/50], Loss: 0.0595
+Epoch [17/50], Loss: 0.0290
+Epoch [18/50], Loss: 0.0487
+Epoch [19/50], Loss: 0.0399
+Epoch [20/50], Loss: 0.0583
+Epoch [21/50], Loss: 0.0644
+Epoch [22/50], Loss: 0.0218
+Epoch [23/50], Loss: 0.0288
+Epoch [24/50], Loss: 0.0179
+Epoch [25/50], Loss: 0.0127
+Epoch [26/50], Loss: 0.0144
+Epoch [27/50], Loss: 0.0519
+Epoch [28/50], Loss: 0.0475
+Epoch [29/50], Loss: 0.0237
+Epoch [30/50], Loss: 0.0305
+Epoch [31/50], Loss: 0.0406
+Epoch [32/50], Loss: 0.0147
+Epoch [33/50], Loss: 0.0258
+Epoch [34/50], Loss: 0.0206
+Epoch [35/50], Loss: 0.0108
+Epoch [36/50], Loss: 0.0176
+Epoch [37/50], Loss: 0.0240
+Epoch [38/50], Loss: 0.0392
+Epoch [39/50], Loss: 0.0581
+Epoch [40/50], Loss: 0.0690
+Epoch [41/50], Loss: 0.0685
+Epoch [42/50], Loss: 0.0201
+Epoch [43/50], Loss: 0.0523
+Epoch [44/50], Loss: 0.0198
+Epoch [45/50], Loss: 0.0110
+Epoch [46/50], Loss: 0.0172
+Epoch [47/50], Loss: 0.0276
+Epoch [48/50], Loss: 0.0223
+Epoch [49/50], Loss: 0.0228
+Epoch [50/50], Loss: 0.0241
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3
+C:\Users\katsu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: can't open file 'C:\\Users\\katsu\\OneDrive\\my_practice\\scr\\train_mlp3': [Errno 2] No such file or directory
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.6475
+Epoch [2/50], Loss: 0.4953
+Epoch [3/50], Loss: 0.3094
+Epoch [4/50], Loss: 0.1268
+Epoch [5/50], Loss: 0.0824
+Epoch [6/50], Loss: 0.0668
+Epoch [7/50], Loss: 0.1417
+Epoch [8/50], Loss: 0.0448
+Epoch [9/50], Loss: 0.0275
+Epoch [10/50], Loss: 0.0349
+Epoch [11/50], Loss: 0.0483
+Epoch [12/50], Loss: 0.0296
+Epoch [13/50], Loss: 0.0513
+Epoch [14/50], Loss: 0.0231
+Epoch [15/50], Loss: 0.0250
+Epoch [16/50], Loss: 0.0376
+Epoch [17/50], Loss: 0.0467
+Epoch [18/50], Loss: 0.0535
+Epoch [19/50], Loss: 0.0545
+Epoch [20/50], Loss: 0.0636
+Epoch [21/50], Loss: 0.0428
+Epoch [22/50], Loss: 0.0254
+Epoch [23/50], Loss: 0.0284
+Epoch [24/50], Loss: 0.0446
+Epoch [25/50], Loss: 0.0833
+Epoch [26/50], Loss: 0.0284
+Epoch [27/50], Loss: 0.0416
+Epoch [28/50], Loss: 0.0177
+Epoch [29/50], Loss: 0.0697
+Epoch [30/50], Loss: 0.0435
+Epoch [31/50], Loss: 0.0288
+Epoch [32/50], Loss: 0.0398
+Epoch [33/50], Loss: 0.0458
+Epoch [34/50], Loss: 0.0419
+Epoch [35/50], Loss: 0.0197
+Epoch [36/50], Loss: 0.0293
+Epoch [37/50], Loss: 0.0324
+Epoch [38/50], Loss: 0.0675
+Epoch [39/50], Loss: 0.0730
+Epoch [40/50], Loss: 0.0949
+Epoch [41/50], Loss: 0.0292
+Epoch [42/50], Loss: 0.0203
+Epoch [43/50], Loss: 0.0176
+Epoch [44/50], Loss: 0.0433
+Epoch [45/50], Loss: 0.0333
+Epoch [46/50], Loss: 0.0375
+Epoch [47/50], Loss: 0.0137
+Epoch [48/50], Loss: 0.0192
+Epoch [49/50], Loss: 0.0235
+Epoch [50/50], Loss: 0.0159
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.7068
+Epoch [2/50], Loss: 0.5127
+Epoch [3/50], Loss: 0.3118
+Epoch [4/50], Loss: 0.2180
+Epoch [5/50], Loss: 0.1339
+Epoch [6/50], Loss: 0.1214
+Epoch [7/50], Loss: 0.0871
+Epoch [8/50], Loss: 0.0437
+Epoch [9/50], Loss: 0.0407
+Epoch [10/50], Loss: 0.0288
+Epoch [11/50], Loss: 0.0387
+Epoch [12/50], Loss: 0.0269
+Epoch [13/50], Loss: 0.0376
+Epoch [14/50], Loss: 0.0504
+Epoch [15/50], Loss: 0.0460
+Epoch [16/50], Loss: 0.0288
+Epoch [17/50], Loss: 0.0826
+Epoch [18/50], Loss: 0.0526
+Epoch [19/50], Loss: 0.0534
+Epoch [20/50], Loss: 0.0203
+Epoch [21/50], Loss: 0.0327
+Epoch [22/50], Loss: 0.0485
+Epoch [23/50], Loss: 0.0332
+Epoch [24/50], Loss: 0.1100
+Epoch [25/50], Loss: 0.1951
+Epoch [26/50], Loss: 0.0339
+Epoch [27/50], Loss: 0.0236
+Epoch [28/50], Loss: 0.0204
+Epoch [29/50], Loss: 0.0315
+Epoch [30/50], Loss: 0.0229
+Epoch [31/50], Loss: 0.0240
+Epoch [32/50], Loss: 0.0450
+Epoch [33/50], Loss: 0.0874
+Epoch [34/50], Loss: 0.0320
+Epoch [35/50], Loss: 0.0282
+Epoch [36/50], Loss: 0.0680
+Epoch [37/50], Loss: 0.0288
+Epoch [38/50], Loss: 0.0387
+Epoch [39/50], Loss: 0.0587
+Epoch [40/50], Loss: 0.0230
+Epoch [41/50], Loss: 0.0296
+Epoch [42/50], Loss: 0.0248
+Epoch [43/50], Loss: 0.0394
+Epoch [44/50], Loss: 0.0458
+Epoch [45/50], Loss: 0.0446
+Epoch [46/50], Loss: 0.0157
+Epoch [47/50], Loss: 0.0387
+Epoch [48/50], Loss: 0.0118
+Epoch [49/50], Loss: 0.0452
+Epoch [50/50], Loss: 0.0259
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.7286
+Epoch [2/50], Loss: 0.2603
+Epoch [3/50], Loss: 0.1597
+Epoch [4/50], Loss: 0.1673
+Epoch [5/50], Loss: 0.0718
+Epoch [6/50], Loss: 0.0539
+Epoch [7/50], Loss: 0.0561
+Epoch [8/50], Loss: 0.0394
+Epoch [9/50], Loss: 0.0539
+Epoch [10/50], Loss: 0.0444
+Epoch [11/50], Loss: 0.0291
+Epoch [12/50], Loss: 0.0419
+Epoch [13/50], Loss: 0.0632
+Epoch [14/50], Loss: 0.0250
+Epoch [15/50], Loss: 0.0195
+Epoch [16/50], Loss: 0.0494
+Epoch [17/50], Loss: 0.0417
+Epoch [18/50], Loss: 0.0583
+Epoch [19/50], Loss: 0.0457
+Epoch [20/50], Loss: 0.0548
+Epoch [21/50], Loss: 0.0274
+Epoch [22/50], Loss: 0.0290
+Epoch [23/50], Loss: 0.0263
+Epoch [24/50], Loss: 0.0246
+Epoch [25/50], Loss: 0.1254
+Epoch [26/50], Loss: 0.0339
+Epoch [27/50], Loss: 0.0421
+Epoch [28/50], Loss: 0.0451
+Epoch [29/50], Loss: 0.0320
+Epoch [30/50], Loss: 0.0180
+Epoch [31/50], Loss: 0.0267
+Epoch [32/50], Loss: 0.0289
+Epoch [33/50], Loss: 0.0239
+Epoch [34/50], Loss: 0.0604
+Epoch [35/50], Loss: 0.0345
+Epoch [36/50], Loss: 0.0243
+Epoch [37/50], Loss: 0.0112
+Epoch [38/50], Loss: 0.0464
+Epoch [39/50], Loss: 0.0403
+Epoch [40/50], Loss: 0.0233
+Epoch [41/50], Loss: 0.0128
+Epoch [42/50], Loss: 0.0186
+Epoch [43/50], Loss: 0.0470
+Epoch [44/50], Loss: 0.0237
+Epoch [45/50], Loss: 0.0232
+Epoch [46/50], Loss: 0.0403
+Epoch [47/50], Loss: 0.0169
+Epoch [48/50], Loss: 0.0330
+Epoch [49/50], Loss: 0.0656
+Epoch [50/50], Loss: 0.0517
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python main5.py
+Epoch 1, Loss: 0.2886
+Epoch 2, Loss: 0.0957
+Epoch 3, Loss: 0.0733
+Epoch 4, Loss: 0.0594
+Epoch 5, Loss: 0.0527
+Epoch 6, Loss: 0.0466
+Epoch 7, Loss: 0.0446
+Epoch 8, Loss: 0.0398
+Epoch 9, Loss: 0.0395
+Epoch 10, Loss: 0.0356
+Epoch 11, Loss: 0.0349
+Epoch 12, Loss: 0.0329
+Epoch 13, Loss: 0.0309
+Epoch 14, Loss: 0.0291
+Epoch 15, Loss: 0.0300
+Test Accuracy: 99.14%
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 2.0734
+Epoch [2/50], Loss: 1.5616
+Epoch [3/50], Loss: 0.7735
+Epoch [4/50], Loss: 0.7137
+Epoch [5/50], Loss: 0.3660
+Epoch [6/50], Loss: 0.4500
+Epoch [7/50], Loss: 0.3299
+Epoch [8/50], Loss: 0.4546
+Epoch [9/50], Loss: 0.3627
+Epoch [10/50], Loss: 0.3489
+Epoch [11/50], Loss: 0.2673
+Epoch [12/50], Loss: 0.2620
+Epoch [13/50], Loss: 0.2485
+Epoch [14/50], Loss: 0.2055
+Epoch [15/50], Loss: 0.2805
+Epoch [16/50], Loss: 0.1392
+Epoch [17/50], Loss: 0.1521
+Epoch [18/50], Loss: 0.1965
+Epoch [19/50], Loss: 0.1142
+Epoch [20/50], Loss: 0.0792
+Epoch [21/50], Loss: 0.1175
+Epoch [22/50], Loss: 0.1189
+Epoch [23/50], Loss: 0.0654
+Epoch [24/50], Loss: 0.0497
+Epoch [25/50], Loss: 0.0531
+Epoch [26/50], Loss: 0.0517
+Epoch [27/50], Loss: 0.0484
+Epoch [28/50], Loss: 0.0589
+Epoch [29/50], Loss: 0.0391
+Epoch [30/50], Loss: 0.0337
+Epoch [31/50], Loss: 0.0278
+Epoch [32/50], Loss: 0.0656
+Epoch [33/50], Loss: 0.0208
+Epoch [34/50], Loss: 0.0365
+Epoch [35/50], Loss: 0.0371
+Epoch [36/50], Loss: 0.0436
+Epoch [37/50], Loss: 0.0112
+Epoch [38/50], Loss: 0.0201
+Epoch [39/50], Loss: 0.0195
+Epoch [40/50], Loss: 0.0147
+Epoch [41/50], Loss: 0.0369
+Epoch [42/50], Loss: 0.0263
+Epoch [43/50], Loss: 0.0147
+Epoch [44/50], Loss: 0.0528
+Epoch [45/50], Loss: 0.0271
+Epoch [46/50], Loss: 0.0197
+Epoch [47/50], Loss: 0.0242
+Epoch [48/50], Loss: 0.0360
+Epoch [49/50], Loss: 0.0178
+Epoch [50/50], Loss: 0.0260
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>pytho visualize.py
+'pytho' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.2689
+Epoch [2/50], Loss: 0.2203
+Epoch [3/50], Loss: 0.0630
+Epoch [4/50], Loss: 0.0706
+Epoch [5/50], Loss: 0.0649
+Epoch [6/50], Loss: 0.0213
+Epoch [7/50], Loss: 0.0259
+Epoch [8/50], Loss: 0.0193
+Epoch [9/50], Loss: 0.0299
+Epoch [10/50], Loss: 0.0444
+Epoch [11/50], Loss: 0.0262
+Epoch [12/50], Loss: 0.0179
+Epoch [13/50], Loss: 0.0306
+Epoch [14/50], Loss: 0.0289
+Epoch [15/50], Loss: 0.0122
+Epoch [16/50], Loss: 0.0294
+Epoch [17/50], Loss: 0.0259
+Epoch [18/50], Loss: 0.0109
+Epoch [19/50], Loss: 0.0212
+Epoch [20/50], Loss: 0.0174
+Epoch [21/50], Loss: 0.0135
+Epoch [22/50], Loss: 0.0223
+Epoch [23/50], Loss: 0.0260
+Epoch [24/50], Loss: 0.0198
+Epoch [25/50], Loss: 0.0195
+Epoch [26/50], Loss: 0.0249
+Epoch [27/50], Loss: 0.0161
+Epoch [28/50], Loss: 0.0152
+Epoch [29/50], Loss: 0.0095
+Epoch [30/50], Loss: 0.0156
+Epoch [31/50], Loss: 0.0142
+Epoch [32/50], Loss: 0.0180
+Epoch [33/50], Loss: 0.0178
+Epoch [34/50], Loss: 0.0234
+Epoch [35/50], Loss: 0.0141
+Epoch [36/50], Loss: 0.0140
+Epoch [37/50], Loss: 0.0124
+Epoch [38/50], Loss: 0.0099
+Epoch [39/50], Loss: 0.0104
+Epoch [40/50], Loss: 0.0134
+Epoch [41/50], Loss: 0.0201
+Epoch [42/50], Loss: 0.0125
+Epoch [43/50], Loss: 0.0166
+Epoch [44/50], Loss: 0.0076
+Epoch [45/50], Loss: 0.0178
+Epoch [46/50], Loss: 0.0244
+Epoch [47/50], Loss: 0.0104
+Epoch [48/50], Loss: 0.0191
+Epoch [49/50], Loss: 0.0073
+Epoch [50/50], Loss: 0.0088
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.1144
+Epoch [2/50], Loss: 0.0281
+Epoch [3/50], Loss: 0.0360
+Epoch [4/50], Loss: 0.0847
+Epoch [5/50], Loss: 0.0323
+Epoch [6/50], Loss: 0.0239
+Epoch [7/50], Loss: 0.0273
+Epoch [8/50], Loss: 0.0218
+Epoch [9/50], Loss: 0.0107
+Epoch [10/50], Loss: 0.0164
+Epoch [11/50], Loss: 0.0247
+Epoch [12/50], Loss: 0.0081
+Epoch [13/50], Loss: 0.0690
+Epoch [14/50], Loss: 0.0193
+Epoch [15/50], Loss: 0.0410
+Epoch [16/50], Loss: 0.0211
+Epoch [17/50], Loss: 0.0173
+Epoch [18/50], Loss: 0.0073
+Epoch [19/50], Loss: 0.0126
+Epoch [20/50], Loss: 0.0418
+Epoch [21/50], Loss: 0.0048
+Epoch [22/50], Loss: 0.0183
+Epoch [23/50], Loss: 0.0070
+Epoch [24/50], Loss: 0.0188
+Epoch [25/50], Loss: 0.0162
+Epoch [26/50], Loss: 0.0281
+Epoch [27/50], Loss: 0.0109
+Epoch [28/50], Loss: 0.0249
+Epoch [29/50], Loss: 0.0159
+Epoch [30/50], Loss: 0.0206
+Epoch [31/50], Loss: 0.0055
+Epoch [32/50], Loss: 0.0213
+Epoch [33/50], Loss: 0.0105
+Epoch [34/50], Loss: 0.0264
+Epoch [35/50], Loss: 0.0152
+Epoch [36/50], Loss: 0.0428
+Epoch [37/50], Loss: 0.0082
+Epoch [38/50], Loss: 0.0084
+Epoch [39/50], Loss: 0.0256
+Epoch [40/50], Loss: 0.0129
+Epoch [41/50], Loss: 0.0317
+Epoch [42/50], Loss: 0.0122
+Epoch [43/50], Loss: 0.0113
+Epoch [44/50], Loss: 0.0188
+Epoch [45/50], Loss: 0.0250
+Epoch [46/50], Loss: 0.0158
+Epoch [47/50], Loss: 0.0097
+Epoch [48/50], Loss: 0.0156
+Epoch [49/50], Loss: 0.0113
+Epoch [50/50], Loss: 0.0225
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python make_data.py
+CSVを作成: C:\Users\katsu\OneDrive\my_practice\scr\data\train_data.csv
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python tain_mlp3.py
+C:\Users\katsu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: can't open file 'C:\\Users\\katsu\\OneDrive\\my_practice\\scr\\tain_mlp3.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.0619
+Epoch [2/50], Loss: 0.0195
+Epoch [3/50], Loss: 0.0114
+Epoch [4/50], Loss: 0.0228
+Epoch [5/50], Loss: 0.0166
+Epoch [6/50], Loss: 0.0115
+Epoch [7/50], Loss: 0.0253
+Epoch [8/50], Loss: 0.0147
+Epoch [9/50], Loss: 0.0329
+Epoch [10/50], Loss: 0.0207
+Epoch [11/50], Loss: 0.0244
+Epoch [12/50], Loss: 0.0237
+Epoch [13/50], Loss: 0.0439
+Epoch [14/50], Loss: 0.0244
+Epoch [15/50], Loss: 0.0190
+Epoch [16/50], Loss: 0.0077
+Epoch [17/50], Loss: 0.0095
+Epoch [18/50], Loss: 0.0099
+Epoch [19/50], Loss: 0.0136
+Epoch [20/50], Loss: 0.0105
+Epoch [21/50], Loss: 0.0130
+Epoch [22/50], Loss: 0.0056
+Epoch [23/50], Loss: 0.0079
+Epoch [24/50], Loss: 0.0123
+Epoch [25/50], Loss: 0.0162
+Epoch [26/50], Loss: 0.0181
+Epoch [27/50], Loss: 0.0104
+Epoch [28/50], Loss: 0.0094
+Epoch [29/50], Loss: 0.0146
+Epoch [30/50], Loss: 0.0233
+Epoch [31/50], Loss: 0.0164
+Epoch [32/50], Loss: 0.0078
+Epoch [33/50], Loss: 0.0166
+Epoch [34/50], Loss: 0.0117
+Epoch [35/50], Loss: 0.0148
+Epoch [36/50], Loss: 0.0129
+Epoch [37/50], Loss: 0.0066
+Epoch [38/50], Loss: 0.0133
+Epoch [39/50], Loss: 0.0064
+Epoch [40/50], Loss: 0.0113
+Epoch [41/50], Loss: 0.0118
+Epoch [42/50], Loss: 0.0100
+Epoch [43/50], Loss: 0.0125
+Epoch [44/50], Loss: 0.0145
+Epoch [45/50], Loss: 0.0104
+Epoch [46/50], Loss: 0.0079
+Epoch [47/50], Loss: 0.0165
+Epoch [48/50], Loss: 0.0173
+Epoch [49/50], Loss: 0.0082
+Epoch [50/50], Loss: 0.0086
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python train_mlp3.py
+Epoch [1/50], Loss: 0.1110
+Epoch [2/50], Loss: 0.0434
+Epoch [3/50], Loss: 0.0321
+Epoch [4/50], Loss: 0.0187
+Epoch [5/50], Loss: 0.0079
+Epoch [6/50], Loss: 0.0154
+Epoch [7/50], Loss: 0.0269
+Epoch [8/50], Loss: 0.0169
+Epoch [9/50], Loss: 0.0179
+Epoch [10/50], Loss: 0.0212
+Epoch [11/50], Loss: 0.0059
+Epoch [12/50], Loss: 0.0194
+Epoch [13/50], Loss: 0.0167
+Epoch [14/50], Loss: 0.0161
+Epoch [15/50], Loss: 0.0099
+Epoch [16/50], Loss: 0.0212
+Epoch [17/50], Loss: 0.0098
+Epoch [18/50], Loss: 0.0160
+Epoch [19/50], Loss: 0.0147
+Epoch [20/50], Loss: 0.0111
+Epoch [21/50], Loss: 0.0101
+Epoch [22/50], Loss: 0.0168
+Epoch [23/50], Loss: 0.0065
+Epoch [24/50], Loss: 0.0043
+Epoch [25/50], Loss: 0.0171
+Epoch [26/50], Loss: 0.0104
+Epoch [27/50], Loss: 0.0170
+Epoch [28/50], Loss: 0.0175
+Epoch [29/50], Loss: 0.0210
+Epoch [30/50], Loss: 0.0226
+Epoch [31/50], Loss: 0.0183
+Epoch [32/50], Loss: 0.0089
+Epoch [33/50], Loss: 0.0209
+Epoch [34/50], Loss: 0.0121
+Epoch [35/50], Loss: 0.0074
+Epoch [36/50], Loss: 0.0130
+Epoch [37/50], Loss: 0.0122
+Epoch [38/50], Loss: 0.0185
+Epoch [39/50], Loss: 0.0076
+Epoch [40/50], Loss: 0.0131
+Epoch [41/50], Loss: 0.0140
+Epoch [42/50], Loss: 0.0076
+Epoch [43/50], Loss: 0.0243
+Epoch [44/50], Loss: 0.0189
+Epoch [45/50], Loss: 0.0265
+Epoch [46/50], Loss: 0.0172
+Epoch [47/50], Loss: 0.0176
+Epoch [48/50], Loss: 0.0083
+Epoch [49/50], Loss: 0.0058
+Epoch [50/50], Loss: 0.0122
+モデルを保存
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>python visualize.py
+学習済みモデルを読み込み
+
+(venv) C:\Users\katsu\OneDrive\my_practice\scr>

@@ -1,0 +1,228 @@
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp3.py
+DropNA: 34 rows removed
+Epoch [1/100]  Train: 0.105144  Val: 0.005005
+Epoch [2/100]  Train: 0.015587  Val: 0.004631
+Epoch [3/100]  Train: 0.014214  Val: 0.004179
+Epoch [4/100]  Train: 0.013733  Val: 0.004079
+Epoch [5/100]  Train: 0.013313  Val: 0.004418
+Epoch [6/100]  Train: 0.013280  Val: 0.003708
+Epoch [7/100]  Train: 0.013189  Val: 0.003817
+Epoch [8/100]  Train: 0.012576  Val: 0.004383
+Epoch [9/100]  Train: 0.012682  Val: 0.003518
+Epoch [10/100]  Train: 0.012669  Val: 0.003459
+Epoch [11/100]  Train: 0.012671  Val: 0.003982
+Epoch [12/100]  Train: 0.012695  Val: 0.003848
+Epoch [13/100]  Train: 0.012521  Val: 0.003592
+Epoch [14/100]  Train: 0.012431  Val: 0.003374
+Epoch [15/100]  Train: 0.012436  Val: 0.003678
+Epoch [16/100]  Train: 0.012230  Val: 0.003300
+Epoch [17/100]  Train: 0.012163  Val: 0.003296
+Epoch [18/100]  Train: 0.012355  Val: 0.003376
+Epoch [19/100]  Train: 0.012157  Val: 0.002954
+Epoch [20/100]  Train: 0.012035  Val: 0.004351
+Epoch [21/100]  Train: 0.012133  Val: 0.003355
+Epoch [22/100]  Train: 0.012217  Val: 0.003081
+Epoch [23/100]  Train: 0.012002  Val: 0.003393
+Epoch [24/100]  Train: 0.012029  Val: 0.003701
+Epoch [25/100]  Train: 0.011931  Val: 0.003341
+Epoch [26/100]  Train: 0.011929  Val: 0.003189
+Epoch [27/100]  Train: 0.011717  Val: 0.002788
+Epoch [28/100]  Train: 0.011579  Val: 0.005143
+Epoch [29/100]  Train: 0.011509  Val: 0.002897
+Epoch [30/100]  Train: 0.011446  Val: 0.003059
+Epoch [31/100]  Train: 0.011404  Val: 0.002622
+Epoch [32/100]  Train: 0.011442  Val: 0.003021
+Epoch [33/100]  Train: 0.011050  Val: 0.002619
+Epoch [34/100]  Train: 0.011134  Val: 0.002701
+Epoch [35/100]  Train: 0.010978  Val: 0.002689
+Epoch [36/100]  Train: 0.011237  Val: 0.002713
+Epoch [37/100]  Train: 0.010981  Val: 0.002853
+Epoch [38/100]  Train: 0.010861  Val: 0.002960
+Epoch [39/100]  Train: 0.010963  Val: 0.003075
+Epoch [40/100]  Train: 0.010890  Val: 0.002865
+Epoch [41/100]  Train: 0.010993  Val: 0.003356
+Epoch [42/100]  Train: 0.010653  Val: 0.002760
+Epoch [43/100]  Train: 0.010765  Val: 0.003395
+Epoch [44/100]  Train: 0.010486  Val: 0.002710
+Epoch [45/100]  Train: 0.010601  Val: 0.002601
+Epoch [46/100]  Train: 0.010596  Val: 0.004213
+Epoch [47/100]  Train: 0.010818  Val: 0.003149
+Epoch [48/100]  Train: 0.010464  Val: 0.002540
+Epoch [49/100]  Train: 0.010542  Val: 0.002709
+Epoch [50/100]  Train: 0.010463  Val: 0.002957
+Epoch [51/100]  Train: 0.010465  Val: 0.002541
+Epoch [52/100]  Train: 0.010582  Val: 0.002638
+Epoch [53/100]  Train: 0.010361  Val: 0.002504
+Epoch [54/100]  Train: 0.010586  Val: 0.003896
+Epoch [55/100]  Train: 0.010649  Val: 0.002570
+Epoch [56/100]  Train: 0.010418  Val: 0.002699
+Epoch [57/100]  Train: 0.010465  Val: 0.002790
+Epoch [58/100]  Train: 0.010369  Val: 0.002683
+Epoch [59/100]  Train: 0.010251  Val: 0.002337
+Epoch [60/100]  Train: 0.010159  Val: 0.002566
+Epoch [61/100]  Train: 0.010264  Val: 0.002364
+Epoch [62/100]  Train: 0.010323  Val: 0.002863
+Epoch [63/100]  Train: 0.010525  Val: 0.002725
+Epoch [64/100]  Train: 0.010202  Val: 0.002726
+Epoch [65/100]  Train: 0.010276  Val: 0.002411
+Epoch [66/100]  Train: 0.010220  Val: 0.002614
+Epoch [67/100]  Train: 0.010211  Val: 0.002246
+Epoch [68/100]  Train: 0.010260  Val: 0.003063
+Epoch [69/100]  Train: 0.010601  Val: 0.002248
+Epoch [70/100]  Train: 0.010173  Val: 0.002334
+Epoch [71/100]  Train: 0.010316  Val: 0.002435
+Epoch [72/100]  Train: 0.010152  Val: 0.002257
+Epoch [73/100]  Train: 0.010236  Val: 0.002402
+Epoch [74/100]  Train: 0.010275  Val: 0.003012
+Epoch [75/100]  Train: 0.010222  Val: 0.002412
+Epoch [76/100]  Train: 0.010283  Val: 0.002292
+Epoch [77/100]  Train: 0.010228  Val: 0.002537
+Epoch [78/100]  Train: 0.010411  Val: 0.002307
+Epoch [79/100]  Train: 0.010300  Val: 0.002348
+Epoch [80/100]  Train: 0.010209  Val: 0.002496
+Epoch [81/100]  Train: 0.010169  Val: 0.002286
+Epoch [82/100]  Train: 0.010215  Val: 0.002255
+Epoch [83/100]  Train: 0.010118  Val: 0.002843
+Epoch [84/100]  Train: 0.010201  Val: 0.002515
+Epoch [85/100]  Train: 0.010288  Val: 0.002556
+Epoch [86/100]  Train: 0.010155  Val: 0.002688
+Epoch [87/100]  Train: 0.010121  Val: 0.002190
+Epoch [88/100]  Train: 0.010136  Val: 0.002544
+Epoch [89/100]  Train: 0.010158  Val: 0.002268
+Epoch [90/100]  Train: 0.010347  Val: 0.002343
+Epoch [91/100]  Train: 0.010198  Val: 0.002758
+Epoch [92/100]  Train: 0.010451  Val: 0.002470
+Epoch [93/100]  Train: 0.010192  Val: 0.002136
+Epoch [94/100]  Train: 0.010112  Val: 0.002085
+Epoch [95/100]  Train: 0.010044  Val: 0.002193
+Epoch [96/100]  Train: 0.010138  Val: 0.002364
+Epoch [97/100]  Train: 0.010077  Val: 0.002211
+Epoch [98/100]  Train: 0.009977  Val: 0.002488
+Epoch [99/100]  Train: 0.010172  Val: 0.002325
+Epoch [100/100]  Train: 0.010070  Val: 0.002484
+保存完了
+
+ スケールを戻した評価（ハイブリッドモデル）
+Train RMSE: 0.011264, MAE: 0.008574
+Val RMSE: 0.011287, MAE: 0.008640
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.040396, MAE: 0.032945
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 2.949844, MAE: 2.937686
+
+(venv) C:\Users\katsu\OneDrive\my_practice\thesis\scr>python mlp3.py
+DropNA: 34 rows removed
+Epoch [1/100]  Train: 0.091495  Val: 0.004664
+Epoch [2/100]  Train: 0.015642  Val: 0.004682
+Epoch [3/100]  Train: 0.014292  Val: 0.004122
+Epoch [4/100]  Train: 0.013522  Val: 0.004291
+Epoch [5/100]  Train: 0.013512  Val: 0.004072
+Epoch [6/100]  Train: 0.012783  Val: 0.004640
+Epoch [7/100]  Train: 0.012885  Val: 0.003746
+Epoch [8/100]  Train: 0.012502  Val: 0.004062
+Epoch [9/100]  Train: 0.012474  Val: 0.003542
+Epoch [10/100]  Train: 0.012398  Val: 0.003812
+Epoch [11/100]  Train: 0.012331  Val: 0.003650
+Epoch [12/100]  Train: 0.012370  Val: 0.003839
+Epoch [13/100]  Train: 0.012209  Val: 0.004446
+Epoch [14/100]  Train: 0.012338  Val: 0.004312
+Epoch [15/100]  Train: 0.012135  Val: 0.003532
+Epoch [16/100]  Train: 0.012302  Val: 0.004040
+Epoch [17/100]  Train: 0.011925  Val: 0.003476
+Epoch [18/100]  Train: 0.012198  Val: 0.004200
+Epoch [19/100]  Train: 0.011835  Val: 0.003914
+Epoch [20/100]  Train: 0.012137  Val: 0.003528
+Epoch [21/100]  Train: 0.011645  Val: 0.003562
+Epoch [22/100]  Train: 0.011680  Val: 0.003445
+Epoch [23/100]  Train: 0.011747  Val: 0.003181
+Epoch [24/100]  Train: 0.011736  Val: 0.003351
+Epoch [25/100]  Train: 0.011613  Val: 0.003308
+Epoch [26/100]  Train: 0.011413  Val: 0.003278
+Epoch [27/100]  Train: 0.011530  Val: 0.003194
+Epoch [28/100]  Train: 0.011356  Val: 0.003374
+Epoch [29/100]  Train: 0.011464  Val: 0.003158
+Epoch [30/100]  Train: 0.011533  Val: 0.002897
+Epoch [31/100]  Train: 0.011467  Val: 0.003516
+Epoch [32/100]  Train: 0.011223  Val: 0.003315
+Epoch [33/100]  Train: 0.011332  Val: 0.003944
+Epoch [34/100]  Train: 0.011151  Val: 0.002834
+Epoch [35/100]  Train: 0.011352  Val: 0.002957
+Epoch [36/100]  Train: 0.011119  Val: 0.003151
+Epoch [37/100]  Train: 0.011267  Val: 0.003701
+Epoch [38/100]  Train: 0.011227  Val: 0.002969
+Epoch [39/100]  Train: 0.011177  Val: 0.003709
+Epoch [40/100]  Train: 0.011059  Val: 0.002929
+Epoch [41/100]  Train: 0.011008  Val: 0.003539
+Epoch [42/100]  Train: 0.010917  Val: 0.002868
+Epoch [43/100]  Train: 0.010830  Val: 0.002683
+Epoch [44/100]  Train: 0.010956  Val: 0.003956
+Epoch [45/100]  Train: 0.010938  Val: 0.002765
+Epoch [46/100]  Train: 0.010981  Val: 0.002592
+Epoch [47/100]  Train: 0.010708  Val: 0.002578
+Epoch [48/100]  Train: 0.010621  Val: 0.003005
+Epoch [49/100]  Train: 0.010683  Val: 0.003315
+Epoch [50/100]  Train: 0.010690  Val: 0.002986
+Epoch [51/100]  Train: 0.010693  Val: 0.002785
+Epoch [52/100]  Train: 0.010565  Val: 0.002472
+Epoch [53/100]  Train: 0.010759  Val: 0.002926
+Epoch [54/100]  Train: 0.010743  Val: 0.002976
+Epoch [55/100]  Train: 0.010695  Val: 0.002852
+Epoch [56/100]  Train: 0.010593  Val: 0.002421
+Epoch [57/100]  Train: 0.010521  Val: 0.002911
+Epoch [58/100]  Train: 0.010565  Val: 0.002709
+Epoch [59/100]  Train: 0.010520  Val: 0.002591
+Epoch [60/100]  Train: 0.010621  Val: 0.002440
+Epoch [61/100]  Train: 0.010470  Val: 0.002395
+Epoch [62/100]  Train: 0.010800  Val: 0.002541
+Epoch [63/100]  Train: 0.010256  Val: 0.002970
+Epoch [64/100]  Train: 0.010500  Val: 0.002385
+Epoch [65/100]  Train: 0.010493  Val: 0.002434
+Epoch [66/100]  Train: 0.010692  Val: 0.003737
+Epoch [67/100]  Train: 0.010429  Val: 0.002876
+Epoch [68/100]  Train: 0.010668  Val: 0.003151
+Epoch [69/100]  Train: 0.010653  Val: 0.002458
+Epoch [70/100]  Train: 0.010303  Val: 0.002454
+Epoch [71/100]  Train: 0.010200  Val: 0.002949
+Epoch [72/100]  Train: 0.010398  Val: 0.002410
+Epoch [73/100]  Train: 0.010457  Val: 0.002893
+Epoch [74/100]  Train: 0.010275  Val: 0.002468
+Epoch [75/100]  Train: 0.010301  Val: 0.002527
+Epoch [76/100]  Train: 0.010405  Val: 0.002752
+Epoch [77/100]  Train: 0.010454  Val: 0.002440
+Epoch [78/100]  Train: 0.010216  Val: 0.003171
+Epoch [79/100]  Train: 0.010210  Val: 0.002787
+Epoch [80/100]  Train: 0.010333  Val: 0.002249
+Epoch [81/100]  Train: 0.010415  Val: 0.002527
+Epoch [82/100]  Train: 0.010215  Val: 0.002318
+Epoch [83/100]  Train: 0.010161  Val: 0.002744
+Epoch [84/100]  Train: 0.010171  Val: 0.002229
+Epoch [85/100]  Train: 0.010399  Val: 0.002418
+Epoch [86/100]  Train: 0.010327  Val: 0.002945
+Epoch [87/100]  Train: 0.010404  Val: 0.002356
+Epoch [88/100]  Train: 0.010425  Val: 0.002273
+Epoch [89/100]  Train: 0.010278  Val: 0.002641
+Epoch [90/100]  Train: 0.010421  Val: 0.002273
+Epoch [91/100]  Train: 0.010497  Val: 0.002261
+Epoch [92/100]  Train: 0.009979  Val: 0.002528
+Epoch [93/100]  Train: 0.010117  Val: 0.003278
+Epoch [94/100]  Train: 0.010180  Val: 0.002428
+Epoch [95/100]  Train: 0.010203  Val: 0.002866
+Epoch [96/100]  Train: 0.010236  Val: 0.002602
+Epoch [97/100]  Train: 0.010145  Val: 0.002768
+Epoch [98/100]  Train: 0.010194  Val: 0.002431
+Epoch [99/100]  Train: 0.010278  Val: 0.002248
+Epoch [100/100]  Train: 0.010302  Val: 0.002500
+保存完了
+
+ スケールを戻した評価（ハイブリッドモデル）
+Train RMSE: 0.011611, MAE: 0.008879
+Val RMSE: 0.011672, MAE: 0.008957
+
+=== inrange.csv の評価結果 ===
+  Test RMSE: 0.049305, MAE: 0.044012
+
+=== outrange.csv の評価結果 ===
+  Test RMSE: 3.688201, MAE: 3.672468
